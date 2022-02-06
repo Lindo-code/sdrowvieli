@@ -61,7 +61,7 @@ p {
   .navbar {
     display: grid;
     grid-column: 1;
-    background: rgba(0, 0, 0, 0.3) url('images/Hd.jpg');
+    background: rgba(0, 0, 0, 0.3) url('https://raw.githubusercontent.com/Lindo-code/sdrowvieli/main/images/Hd.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@ p {
   .navbar {
     display: grid;
     grid-column: 1 / span 12;
-    background: rgba(0, 0, 0, 0.3) url('images/Hd.jpg');
+    background: rgba(0, 0, 0, 0.3) url('https://raw.githubusercontent.com/Lindo-code/sdrowvieli/main/images/Hd.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
