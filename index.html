@@ -12,14 +12,15 @@
 <body>
   <div class="container">
     <div class="navbar">
+      <span>
+        <a href="mailto: sdrowvieli1@gmail.com" id="deco3">
+          <i class="fas fa-envelope">
+            <span id="deco"></span>
+          </i>
+        </a>
+      </span>
       <div class="item nested_navbar0">
-        <span>
-          <a href="javascript:void(0);" id="deco2">
-            <i class="fas fa-bars" onclick="barFunction()">
-              <span id="deco"></span>
-            </i>
-          </a>
-        </span>
+        <span style="font-size: 2rem; color: white; cursor:pointer" onclick="openNav()" id="hamburger">&#9776;</span>
       </div>
       <div class="item nested_navbar1">
         <span>
@@ -31,7 +32,7 @@
         </span>
       </div>
       <div class="item nested_navbar2">
-        <h2>SDROWVIELI</h2>
+        <h1>SDROWVIELI</h1>
         <span>
           <a href="#" id="link1">HOME</a>
           <hr class="hr_solid" />
@@ -50,26 +51,6 @@
         </span>
       </div>
       <div class="item nested_navbar3"></div>
-    </div>
-    <div id="menu">
-      <div class="item nested_menu">
-        <span>
-          <a href="#" id="link1">HOME</a>
-          <hr class="hr_solid" />
-        </span>
-        <span>
-          <a href="#" id="link2">SHORT STORIES</a>
-        </span>
-        <span>
-          <a href="#" id="link3">THOUGHTS</a>
-        </span>
-        <span>
-          <a href="#" id="link4">PREVIEWS</a>
-        </span>
-        <span>
-          <a href="#" id="link5">CONTACT</a>
-        </span>
-      </div>
     </div>
     <div class="item body">
       <h2 id="title1">ABOUT</h2>
@@ -90,6 +71,14 @@
     <div class="item footer">
       footer
     </div>
+  </div>
+  <div class="sidenav" id="mySidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" onclick="closeNav()">HOME</a>
+    <a href="#" onclick="closeNav()">SHORT STORIES</a>
+    <a href="#" onclick="closeNav()">THOUGHTS</a>
+    <a href="#" onclick="closeNav()">PREVIEWS</a>
+    <a href="#" onclick="closeNav()">CONTACT</a>
   </div>
   <script src="JS/Script.js"></script>
 </body>
