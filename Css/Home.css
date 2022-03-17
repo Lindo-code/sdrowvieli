@@ -222,11 +222,13 @@ p {
     width: 100%;
     height: 0;
     border: 1px solid white;
+    background-color: white;
     margin-top: 2px;
   }
   .hr_solid1 {
     width: 90%;
     height: 0;
+    background-color: grey;
     border: 0.5px solid grey;
     margin-top: 2px;
   }
