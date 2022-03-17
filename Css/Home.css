@@ -26,6 +26,13 @@ p {
   color: white;
   text-decoration: none;
 }
+.hr_solid1 {
+  width: 90%;
+  height: 0;
+  background-color: grey;
+  border: 0.5px solid grey;
+  margin-top: 2px;
+}
 /*.item {
   border: 4px solid red;
   border-radius: 4px;
@@ -223,13 +230,6 @@ p {
     height: 0;
     border: 1px solid white;
     background-color: white;
-    margin-top: 2px;
-  }
-  .hr_solid1 {
-    width: 90%;
-    height: 0;
-    background-color: grey;
-    border: 0.5px solid grey;
     margin-top: 2px;
   }
   .nested_navbar2 > span {
